@@ -1,0 +1,47 @@
+GET http://localhost:5170/profiles
+
+////////////////////////////////////
+
+###
+GET http://localhost:5170/profiles/1
+
+////////////////////////////////////
+
+###
+POST http://localhost:5170/profiles
+Content-Type: application/json
+
+{
+    "Email": "test_post@example.com",
+    "Name": "test_post",
+    "ProfilePicture": "test_post.jpg",
+    "School": "test_post University",
+    "Major": "Literature",
+    "Minor": "Philosophy",
+    "AlumniStatus": false,
+    "Organization": "Literature Club",
+    "BadgeNum": 106
+}
+
+////////////////////////////////////
+
+###
+PUT http://localhost:5170/profiles/1
+Content-Type: application/json
+
+{
+    "Email": "test_put@example.com",
+    "Name": "test_put",
+    "ProfilePicture": "test_put.jpg",
+    "School": "test_put University",
+    "Major": "Literature",
+    "Minor": "Philosophy",
+    "AlumniStatus": false,
+    "Organization": "Literature Club",
+    "BadgeNum": 106
+}
+
+///////////////////////////////////////
+
+###
+DELETE http://localhost:5170/profiles/1
