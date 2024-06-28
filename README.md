@@ -1,6 +1,6 @@
 # GreekNetwork_Backend
 
-This README provides a very BRIEF and initial overview of the GreekNetwork backend.
+This README provides a VERY BRIEF and INITIAL overview of the GreekNetwork backend.
 
 Technology Stack:
 * Language: C#
